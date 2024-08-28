@@ -2,16 +2,16 @@ body {
     background-color: #4b589e;
 }
 
-.main {
+#main {
     width: 700px;
-    height: 800px;
+  min-height: 1250px;
     background-color: #b9bbbe;
     margin-left: 400px;
     margin-top: 15px;
     position: relative;
 }
 
-.bar {
+.Up {
     width: inherit;
     height: 40px;
     background-color: #4E5FA3;
@@ -20,7 +20,7 @@ body {
     z-index: 9999999999999999999;
 }
 
-.e {
+.ABC {
     width: 160px;
     height: 20px;
     background: white;
@@ -29,7 +29,17 @@ body {
     left: 115px;
 }
 
-.o {
+.ABC i {
+
+    position: absolute;
+    left: 254px;
+    top: 19px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+
+.DFG {
     width: 30px;
     height: 30px;
     background-color: white;
@@ -38,6 +48,36 @@ body {
     top: 9px;
     left: 315px;
     z-index: 999999999999999;
+}
+
+.DFG i {
+    position: absolute;
+    top: 0px;
+    left: 352px;
+    font-size: 15px;
+    color: white;
+}
+
+.p {
+    position: absolute;
+    left: 462px;
+    top: 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.icon1 {
+    position: absolute;
+    top: 13px;
+    left: 565px;
+    color: black
+}
+
+.icon2 {
+    position: absolute;
+    top: 11px;
+    left: 599px;
+    color: black
 }
 
 .h {
@@ -85,7 +125,6 @@ body {
 #center {
     width: 700px;
     min-height: 1000px;
-    background-color: black;
     float: left;
     position: relative;
     top: 301px;
@@ -172,37 +211,42 @@ body {
 }
 
 .yer {
-   margin-left: 110px;
-   border: 5px solid grey;
-   margin-top: 50px;
+    margin-left: 110px;
+    border: 5px solid grey;
+    margin-top: 50px;
 }
+
 .yer2 {
     margin-left: 110px;
     border: 5px solid grey;
     margin-top: 100px;
- }
- .yer3 {
+}
+
+.yer3 {
     margin-left: 110px;
     border: 5px solid grey;
     margin-top: 100px;
- }
+}
+
 .img1 {
     background-color: #4E5FA3;
     width: 100px;
     height: 100px;
     position: absolute;
-    
- 
+
+
 }
+
 .img2 {
     background-color: #4E5FA3;
     width: 100px;
     height: 100px;
     position: absolute;
     top: 115px;
-    
- 
+
+
 }
+
 .img3 {
     background-color: #4E5FA3;
     width: 100px;
@@ -210,9 +254,10 @@ body {
     position: absolute;
     bottom: 0;
     margin-bottom: 10px;
- 
+
 }
-#Imgler{
+
+#Imgler {
     width: 250px;
     height: 250px;
     background-color: white;
@@ -221,67 +266,84 @@ body {
     padding: 10px;
     box-sizing: border-box;
 }
-.slide1{
+
+.slide1 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 10px;
-     left: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
-.slide2{
+
+.slide2 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 10px;
-     left: 90px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
 }
-.slide3{
+
+.slide3 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 10px;
-     left: 170px;
+    position: absolute;
+    top: 10px;
+    left: 170px;
 }
-.slide4{
+
+.slide4 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 90px;
-     left: 10px;
+    position: absolute;
+    top: 90px;
+    left: 10px;
 }
-.slide5{
+
+.slide5 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 90px;
-     left: 90px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
 }
-.slide6{
+
+.slide6 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 90px;
-     left: 170px;
+    position: absolute;
+    top: 90px;
+    left: 170px;
 }
-.slide7{
+
+.slide7 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 170px;
-     left: 10px;
+    position: absolute;
+    top: 170px;
+    left: 10px;
 }
-.slide8{
+
+.slide8 {
     width: 70px;
     height: 70px;
     background-color: #4b589e;
-     position: absolute;
-     top: 170px;
-     left: 90px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+}
+
+.div{
+    width: 401px;
+    background-color:white;
+    height: 396px;
+    position: absolute;
+    top:490px ;
+    left: 280px;
 }
